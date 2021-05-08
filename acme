@@ -1,0 +1,47 @@
+! light
+!URxvt.foreground:   #424242
+!URxvt.background:   #ffffec
+
+! dark
+! used to be #efefef on #000000, but this is easier on the eyes.
+URxvt.foreground:   #ffffec
+URxvt.background:   #1a1a1a
+
+
+! black
+URxvt.color0:       #424242
+URxvt.color8:       #eeeea7
+
+! red
+URxvt.color1:       #b8261e
+URxvt.color9:       #f2acaa
+
+! green
+URxvt.color2:       #3e8630
+URxvt.color10:      #98ce8f
+
+! yellow
+URxvt.color3:       #7f8f29
+URxvt.color11:      #b6b79c
+
+! blue
+URxvt.color4:       #2a8dc5
+URxvt.color12:      #a6dcf8
+
+! magenta
+URxvt.color5:       #8888c7
+URxvt.color13:      #d0d1f7
+
+! cyan
+URxvt.color6:       #6aa7a8
+URxvt.color14:      #b0eced
+
+! white
+URxvt.color7:       #999957
+URxvt.color15:      #ffffec
+
+! keybindings
+! light
+URxvt*keysym.Control-Shift-F11: command:\033]10;#424242\007\033]11;#ffffec\007\033]708;#ffffec\007
+! dark
+URxvt*keysym.Control-Shift-F12: command:\033]10;#ffffec\007\033]11;#1a1a1a\007\033]708;#1a1a1a\007
